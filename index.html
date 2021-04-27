@@ -1,25 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/5cacbebcd5.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/lightgallery.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
+
 <body>
+    <div class="container">
+        <header id="main-header">
+            <div class="row g-0">
+                <div class="col-lg-4 col-md-5 d-flex flex-column justify-content-center bg-dark">
+                    <img src="img/person1.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="h-100 d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                <h1 class="col-md-8 col-sm-12 display-4">John Doe</h1>
+                                <div class="col-md-4 text-end col-sm-12 d-flex justify-content-end">
+                                    <div>
+                                        <a href="www.twitter.com" class="text-white px-2">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="www.facebook.com" class="text-white px-2">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="www.instagram.com" class="text-white px-2">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="www.github.com" class="text-white px-2">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-black">
+                            Experienced Full Stack Web Developer
+                        </div>
+
+                        <div class="h-100">
+                            <div class="d-flex h-100 text-white align-items-stretch text-center">
+                                <div class="port-item w-25 p-4 bg-primary d-flex flex-column justify-content-center"
+                                    data-bs-toggle="collapse" data-bs-target="#home" role="button">
+                                    <i class="fas fa-home fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Home</span>
+                                </div>
+                                <div class="port-item w-25 p-4 bg-success d-flex flex-column justify-content-center"
+                                    data-bs-toggle="collapse" data-bs-target="#resume" role="button">
+                                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Resume</span>
+                                </div>
+                                <div class="port-item w-25 p-4 bg-warning d-flex flex-column justify-content-center"
+                                    data-bs-toggle="collapse" data-bs-target="#work" role="button">
+                                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Work</span>
+                                </div>
+                                <div class="port-item w-25 p-4 bg-info d-flex flex-column justify-content-center"
+                                    data-bs-toggle="collapse" data-bs-target="#contact" role="button">
+                                    <i class="fas fa-envelope fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Contact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- HOME -->
+        <div id="home" class="collapse show">
+            <div class="card card-body bg-primary text-white py-5">
+                <h2>Welcome To My Page!</h2>
+                <p class="lead">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi minus omnis, id corporis nesciunt
+                    quos alias mollitia suscipit laudantium iure! Consequatur perferendis veniam iste! Dolores debitis
+                    accusamus cumque et distinctio!
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nulla aut hic quis! Nostrum sit
+                    error quam et obcaecati earum doloremque est optio aliquam itaque nam dolores neque, perferendis
+                    similique?
+                </p>
+            </div>
+            <div class="card card-body py5">
+                <h3>My Skills</h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus veritatis itaque
+                    cupiditate earum laudantium.
+                </p>
+                <hr>
+                <div class="d-flex flex-wrap gap-2 justify-content-between">
+                    <div class="col-md-5 col-12 mb-3">
+                        <h4>HTML 5</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width:100%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12 mb-3">
+                        <h4>CSS 3</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width:100%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12 mb-3">
+                        <h4>JavaScript</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width:90%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12 mb-3">
+                        <h4>React</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width:90%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12 mb-3">
+                        <h4>PHP</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width:70%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- RESUME -->
+        <div id="resume" class="collapse">
+            <div class="card card-body bg-success text-white py-5">
+                <h2>My Resume</h2>
+                <p class="lead">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi minus omnis, id corporis nesciunt
+                    quos alias mollitia suscipit laudantium iure! Consequatur perferendis veniam iste! Dolores debitis
+                    accusamus cumque et distinctio!
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nulla aut hic quis! Nostrum sit
+                    error quam et obcaecati earum doloremque est optio aliquam itaque nam dolores neque, perferendis
+                    similique?
+                </p>
+            </div>
+
+            <div class="card card-body py-5">
+                <h3>Where Have I Work?</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum dolores voluptate aliquid rerum
+                    modi, recusandae quas voluptatem amet voluptates cum asperiores, reprehenderit cumque molestiae
+                    libero veritatis dolor vel! Deserunt quidem nulla, consequatur fugit odio soluta. Qui deleniti cum
+                    magnam aliquid perspiciatis eos et nemo sequi architecto? Consequuntur, qui debitis!
+                </p>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Devmasters</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam corporis ducimus
+                                    possimus tempore unde quos debitis veniam temporibus odio cum.
+                                </p>
+                                <p class="p-2 mb-3 bg-dark text-white">
+                                    Position: Full Stack Developer
+                                </p>
+                                <p class="p-2 mb-3 bg-dark text-white">
+                                    Phone: (555) 555-55-55
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <h6 class="text-muted">
+                                    Dates: 2020 - now
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Ozio designs</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam corporis ducimus
+                                    possimus tempore unde quos debitis veniam temporibus odio cum.
+                                    Lorem ipsum dolor sit amet.
+                                </p>
+                                <p class="p-2 mb-3 bg-dark text-white">
+                                    Position: UX/ UI Designer
+                                </p>
+                                <p class="p-2 mb-3 bg-dark text-white">
+                                    Phone: (555) 555-55-55
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <h6 class="text-muted">
+                                    Dates: 2018 - 2019
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Web pros</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam corporis ducimus
+                                    possimus tempore unde quos debitis veniam temporibus odio cum.
+                                </p>
+                                <p class="p-2 mb-3 bg-dark text-white">
+                                    Position: Full Stack Developer
+                                </p>
+                                <p class="p-2 mb-3 bg-dark text-white">
+                                    Phone: (555) 555-55-55
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <h6 class="text-muted">
+                                    Dates: 2019 - 2020
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WORK -->
+        <div id="work" class="collapse">
+            <div class="card card-body bg-warning text-dark py-5">
+                <h2>My Work</h2>
+                <p class="lead">
+                    What have I built?
+                </p>
+                <div id="gallery" class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div class="col">
+                        <a class="gallery-item" href="img/image1.jpg">
+                            <img class="img-fluid" src="img/image1.jpg"/>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="img/image2.jpg">
+                            <img class="img-fluid" src="img/image2.jpg"/>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="img/image3.jpg">
+                            <img class="img-fluid" src="img/image3.jpg"/>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="img/image4.jpg">
+                            <img class="img-fluid" src="img/image4.jpg"/>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="img/image5.png">
+                            <img class="img-fluid" src="img/image5.png"/>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="img/image6.jpg">
+                            <img class="img-fluid" src="img/image6.jpg"/>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="footer" class="p-5 bg-dark text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-light">
+                        <i class="fas fa-cloud"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+    <script src="js/lightgallery.min.js"></script>
+
     <script>
-        // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear());
+        $('.port-item').click(function () {
+            $('.collapse').collapse('hide');
+        })
+
+        // Init light gallery
+        lightGallery(document.getElementById('gallery'), {
+            thumbnail:true,
+            selector: 'a'
+        }); 
+
     </script>
 </body>
+
 </html>

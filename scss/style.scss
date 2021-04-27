@@ -1,0 +1,16 @@
+.bg-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.port-item {
+    cursor: pointer;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+// @media (min-width: 1199px) {
+//     .port-item {
+//         padding: 4em !important;
+//     }
+// }
